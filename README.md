@@ -6,5 +6,5 @@
 ## Block Diagram
 ![image](https://github.com/zzzzz314314/Ant_farm/blob/master/block_diagram.png)
 ## Gif demo
-<div align=center>![image](https://github.com/zzzzz314314/Ant_farm/blob/master/demo.gif)</div>
 <div align=center><img src="https://github.com/zzzzz314314/Ant_farm/blob/master/demo.gif"/></div>
+詳細內容請瀏覽report
