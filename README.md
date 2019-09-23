@@ -4,4 +4,5 @@
 ## Environments
 用android studio與java, xml等等完成，僅能適用android os。
 ## Block Diagram
+![image](https://github.com/zzzzz314314/Ant_farm/blob/master/block_diagram.png)
 ## Gif demo
