@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Normal_ant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="141dp"
+        android:text="Normal Ant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/Worker_ant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Worker Ant"
+        app:layout_constraintStart_toStartOf="@+id/Normal_ant"
+        app:layout_constraintTop_toBottomOf="@+id/Normal_ant" />
+
+    <Button
+        android:id="@+id/Soldier_ant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Soldier Ant"
+        app:layout_constraintStart_toStartOf="@+id/Worker_ant"
+        app:layout_constraintTop_toBottomOf="@+id/Worker_ant" />
+
+    <TextView
+        android:id="@+id/Ant_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="95dp"
+        android:text="Ant Count: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Normal_ant_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Normal Ants: "
+        app:layout_constraintStart_toStartOf="@+id/Ant_count"
+        app:layout_constraintTop_toBottomOf="@+id/Ant_count" />
+
+    <TextView
+        android:id="@+id/Worker_ant_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Worker Ants: "
+        app:layout_constraintStart_toStartOf="@+id/Normal_ant_count"
+        app:layout_constraintTop_toBottomOf="@+id/Normal_ant_count" />
+
+    <TextView
+        android:id="@+id/Soldier_ant_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Soldier Ants: "
+        app:layout_constraintStart_toStartOf="@+id/Worker_ant_count"
+        app:layout_constraintTop_toBottomOf="@+id/Worker_ant_count" />
+
+    <TextView
+        android:id="@+id/Food_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Food: "
+        app:layout_constraintStart_toStartOf="@+id/Soldier_ant_count"
+        app:layout_constraintTop_toBottomOf="@+id/Soldier_ant_count" />
+
+</android.support.constraint.ConstraintLayout>
